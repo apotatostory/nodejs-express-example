@@ -1,0 +1,24 @@
+{
+  "name": "tdccbackend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./src/Server.ts",
+    "tsc": "tsc",
+    "dev": "ts-node ./src/Server.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.9",
+    "@types/morgan": "^1.9.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.17.1",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.2"
+  }
+}
